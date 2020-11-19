@@ -1,0 +1,198 @@
+
+@import "../../styles/responsive.module";
+
+
+.boxstylusContainer{
+    width: 100%;
+    padding: 98px;
+    -webkit-transition: bottom 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition: bottom 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    overflow: hidden;
+
+    &:before{
+        content: 'Books';
+        position: absolute;
+        font-size: 13vmin;
+        font-weight: bold;
+        color: hsl(0, 0%, 89%);
+        z-index: 1;
+        left: 0;
+        font-family: 'Playfair Display', serif;
+        -webkit-transform: translate(17%, -57%);
+        transform: translate(26%, -51%);
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+.sectioncontentColumn{
+    position: relative;
+    z-index: 2;
+}
+
+.spanFlex{
+    font-size: 24px;
+    color: #cea752;
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 0.2rem;
+}
+
+.headingFrontline{
+	font-size: 6vmin;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #151515;
+    margin-bottom: 11px;
+}
+
+.subcontent{
+    color: #929292;
+    margin: 52px 0;
+    line-height: 1.9;
+    letter-spacing: 0.03rem;
+}
+
+.buttonLayouts{
+    margin-top: 39px;
+}
+
+.tagline{
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+
+.taglineLinear{
+    color: #ffffff;
+    font-style: italic;
+    text-transform: inherit;
+}
+
+.taglineLinear{
+    &:before{
+        content: '';
+        display: inline-block;
+        position: relative;
+        width: 104px;
+        top: -5px;
+        height: 1px;
+        left: 0px;
+        background-color: #7d7d7d;
+        margin: 0 15px;
+    }
+}
+
+
+
+.bookimageContainer {
+    max-width: 100%;
+    width: 100%;
+
+    &:before{
+        background-image: url('../../asset/Books/back_cover.png');
+        content: '';
+        height: 30%;
+        position: absolute;
+        background-position: center;
+        background-size: 285px;
+        background-repeat: no-repeat;
+        left: 45%;
+        right: 0;
+        z-index: 1;
+        // top: 47.7rem;
+        width: 271px;
+        border: 23px solid #ffff;
+        -webkit-box-shadow: -11px 2px 13px #e0e0e0b0;
+        -moz-box-shadow: -11px 2px 13px #e0e0e0b0;
+        -webkit-transform: translate(10px, 269px);
+        -moz-transform: translate(10px, 269px);
+    }
+
+    img {
+        max-width: 100%;
+        width: 100%;
+        border: 24px solid #fffe;
+        position: relative;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        -webkit-box-shadow: 0px 0px 58px #dedede;
+        box-shadow: 0px 2px 13px #e0e0e0;
+    }
+}
+        
+.mainSection{
+    margin: 67px 0;
+}
+        
+.lowerSection{
+    background: #efefef;
+}
+        
+.spanTagLetters{
+    display: block;
+}
+    
+.buttonLayouts{
+    a{
+        text-transform: uppercase;
+        padding: 15px 74px;
+        color: #cea752;
+        box-shadow: 0px 2px 13px #fff5f5;
+        border: 2px solid #cea752;
+        font-size: 12px;
+        &:hover{
+            transition: 2s;
+            color: #fff;
+            background: #cea752;
+
+            opacity: .5;
+            transition: opacity .5s ease-out;
+            -moz-transition: opacity .5s ease-out;
+            -webkit-transition: opacity .5s ease-out;
+            -o-transition: opacity .5s ease-out;
+        }
+    }
+}
+
+
+/*Lower Main*/
+.lowerMain{
+    background: #efefef;
+    padding: 86px;  
+}
+
+.authorImagecontainer{
+    width: 100%;
+    position:relative;
+    z-index: 21;
+    img{
+        width: 100%;
+        max-width: 100%;
+    }
+}
+    
+.authorBio{
+    text-align: right;
+    margin-top: 109px;
+
+    &:after{
+        content: 'Author';
+        position: absolute;
+        font-size: 13vmin;
+        font-weight: bold;
+        color: hsl(0, 0%, 89%);
+        z-index: 1;
+        left: 0;
+        font-family: 'Playfair Display', serif;
+        transform: translate(65vw,-481px);
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        overflow: hidden;
+    }
+}

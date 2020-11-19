@@ -1,0 +1,42 @@
+
+
+@import "../../styles/responsive.module";
+
+/*Banner Modules*/
+#ParallaxImage{
+	opacity: 1;
+}
+
+.bannerParallax{
+	height: 720px;
+
+	h1{
+		margin-top: 250px;
+	    position: relative;
+	    z-index: 5;
+	    text-align: center;
+	    font-size: 6rem;
+	    color: #ffff;
+	}
+}
+
+.subCatsFt{
+	text-align: center;
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+    
+    color: #ffffff;
+}
+
+
+#bannerCustomContainer{
+    max-width: 1500px;
+    margin: 0 22vw 0 45vw;
+    h1{
+    	text-align: right;
+    }
+    p{
+    	text-align: right !important;
+    }
+}

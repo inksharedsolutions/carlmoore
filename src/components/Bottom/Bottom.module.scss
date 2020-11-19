@@ -1,0 +1,36 @@
+
+
+@import "../../styles/responsive.module";
+
+
+.bottomParallax{
+	img{
+		opacity: 1 !important;
+	}
+}
+	
+#fixCustomBottomBanner{
+	height: 600px;
+}
+
+#markdownsFxContainer{
+    h2{
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        color: #fff;
+        margin-top: 150px;
+        font-size: 5vmin;
+
+    }
+
+    p{
+        position: relative;
+        z-index: 3;
+        text-align: center;
+        font-size: 30px;
+        color: #efe2b0;
+        font-style: italic;
+        letter-spacing: 4px; 
+    }
+}

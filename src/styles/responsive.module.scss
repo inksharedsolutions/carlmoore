@@ -1,0 +1,177 @@
+/*
+* 
+*
+*/
+
+$layout-breakpoint-medium: 990px;
+$layout-breakpoint-small: 550px;
+$c: center;
+
+@media (max-width:1500px){
+	.authorBio{
+		&:after{
+		    text-align: right;
+           transform: translate(56vw,-465px) !important;
+    }
+	}
+}
+
+@media (max-width:1350px){
+  	 #mobileContainers{
+  		width: 90% !important;
+  		text-align: $c !important;
+  	 }
+}
+
+@media (max-width:1350px){
+  .authorBio{
+    &:after{
+      transform: translate(53vw,-471px) !important;
+    }
+  }
+
+}
+			
+@media (max-width: $layout-breakpoint-medium) {
+
+  .iframeMap{ 
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .desktopMode{
+     display: none !important;
+  }
+
+  .authorName,.sub-cats-ff-paragraph{
+    text-align: center !important;
+  }
+
+  #bannerCustomContainer{
+      max-width: 500px !important;
+      margin: 0 auto !important;
+      h1{
+        text-align: center !important;
+      }
+  }
+  
+  .burgerNav{
+      float: right;
+      margin-top: 17px;
+  }
+
+  .burgerLinear{
+      width: 49px;
+      height: 2px;
+      background-color: #b57f18;
+      margin: 9px 0;
+  }
+
+  .mobileNavList{
+    margin-top: 95px;
+
+    &.active{
+      background: #2d2d2d !important;
+    }
+  }
+
+  .footer{
+    text-align: center;
+  } 
+
+  .boxstylusContainer{
+  	&:before{
+  	  position: relative;
+  	  transform: translate(0, 0%) !important;
+  	  width: 100%; 
+  	}
+  }
+
+  .bookContMobile{
+  	 width: 100%;
+  }
+
+  #bookImageContOff{	
+	  	&:before{
+	  		display: none !important;
+	  	}
+   }
+
+   .sectioncontentColumn{
+    	text-align: $c !important;
+   }
+
+   .headingBottom{
+   	    font-size: 6vmin;
+   }
+
+   .newsletterHeading{
+   	    font-size: 7vmin !important;
+   }
+}
+
+@media (max-width: 650px) {
+	.headingBottom{
+		margin-top: 69px;
+	}
+}
+          
+
+@media (max-width: $layout-breakpoint-small) {
+
+  #bannerCustomContainer{
+    padding: 26px;
+
+    h1{
+      font-size: 4rem;
+    }
+    p{
+      text-align: center!important;
+    }
+  }
+
+  .iframeMap{
+    margin: 36px 0;
+  }
+
+  .footer{
+    padding:10px !important;
+  }
+
+  .bottomWrapper{
+     padding: 29px !important;
+  }
+
+  .bannerParallax{
+      font-size: 4rem;
+  }
+
+	.boxstylusContainer{
+		 margin-bottom: 58px;
+		 padding: 20px !important;
+	}
+
+	.lowerMain{
+		 padding:20px !important;
+	}
+
+  .buttonNewsletter{
+     padding: 15px 21px !important;
+  }
+
+  .buttonLayouts a{
+     padding: 15px 21px !important;
+  }
+
+  #headlessBottom{
+    font-size: 10vmin !important;
+  }
+
+  .bottomWrapper{
+    padding: 83px;
+  }
+
+}
+
+
+@media (max-width: 450px) {}

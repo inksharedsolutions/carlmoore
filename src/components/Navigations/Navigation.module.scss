@@ -1,0 +1,134 @@
+
+@import "../../styles/responsive.module";
+
+
+.Navigation {
+
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	
+	ul{
+		padding: 22px;
+	}
+
+	ul li{
+		display: inline-block;
+	    text-decoration: none;
+	    color: #fff;
+	    /* font-family: 'Playfair Display', serif; */
+	    text-transform: uppercase;
+	    font-weight: 100;
+	    letter-spacing: -1px;
+	}
+
+	ul li a{
+
+	 	padding: 27px;
+	 	color: #5f5f5f;
+	    font-weight: bold;
+	    font-family: 'Montserrat', sans-serif;
+	    font-weight: 100;
+	    letter-spacing: 0px;
+	    font-size: 12px;
+
+	    &:hover{
+	    	transition: width .4s ease-in-out;
+	    	// border-bottom: 4px solid #fff;
+	    }
+	}
+
+}
+
+.containerCustomizeFlex{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.active{
+ 	color: #fff !important;
+ 	background: #ffcb62;
+ 	border-bottom: 4px solid #fff;
+ 	padding: 9px;
+}
+
+.mobileNav{
+	display: none;
+	cursor: pointer;
+	left: -100%;
+	-webkit-transition: all .5s;
+    transition: all .5s;
+}
+				
+#imageContainer{
+    text-align: center;
+    img{
+      width: 130px;
+      margin-top: 11px;
+      &:hover{
+      	 cursor: pointer;
+      }
+   }
+}
+		
+#rowOffMargin{
+	margin:0;
+}
+
+#nav{
+	text-align: right;
+}
+		
+.desktopMode{
+	display: block;
+}
+
+.expandedNav{
+
+	
+	content: '';
+    background: #3a3a3a;
+    padding: 37px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    z-index: 999;
+    left: 0;
+
+
+    ul{
+    	margin-top: 99px;
+    }
+
+    li{
+    	display: block;
+    	text-align: center;
+	    font-size: 4vmin;
+	    list-style-type: none;
+	    margin-bottom: 22px;
+    }
+    a{
+    	color: #fff;
+    }
+}
+
+.closeNav{
+	background: #ffcb62;
+    color: #fff;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+
+/*#navcontainerBanner{
+    border-bottom: 1px solid #868686ee;
+}*/
