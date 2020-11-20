@@ -68,7 +68,7 @@ const Main = () => {
 									</h1>
 
 									<p className={style.subcontent}>
-										No ATA in the author files and web creation
+									Carl was born and raised in Philadelphia, PA to a deceased hearing father and deceased deaf mother.  He is second oldest of seven children (three hearing and four deaf).  Carl and his wife, were married in 1998 and have four grown children.  Although Carl is originally from Philadelphia, PA, he has lived many places.
 									</p>
 
 									<div className={style.buttonLayouts}>

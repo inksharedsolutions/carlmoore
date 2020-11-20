@@ -8,8 +8,8 @@ const Banner = (props) =>{
 	let strHeader, subParagraph, strJoin  = '';
 
 	if ( (props.headerText.pathname ===  '/') ){
-		 strHeader = ('Luke 16:22-24');
-		 subParagraph = ('Father Abraham, have pity on me and send Lazarus dip the tip of his finger in water and cool my tongue because I am in agony in this fire');
+		 strHeader = ('1 Peter 5:7 (ERV)');
+		 subParagraph = ('God knew about his worries;');
 	}else{
 		strHeader = (props.headerText.pathname).replace(/[-/]/g," ").trim();
 

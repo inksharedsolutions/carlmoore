@@ -26,7 +26,7 @@ const Footer =(props) => {
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.7559506996627!2d-75.5533080846244!3d39.74513257944878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6fd6a9dfc32a9%3A0x3739b8658eb0c071!2s831+N+Tatnall+St+Suite+M+%23188%2C+Wilmington%2C+DE+19801%2C+USA!5e0!3m2!1sen!2sph!4v1546877261214" id={style.iframeMap} allowfullscreen=""></iframe>
 							<nav id={style.soc_medias}>
 								<a 
-									href="https://www.facebook.com/EvangelistElmaHampton"
+									href="https://www.facebook.com/StrattonPressInc/"
 									target="_blank"
 									rel="noopener noreferrer">
 
@@ -67,8 +67,8 @@ const Footer =(props) => {
 						<div className='col l6 m12 s12' id={style.info }>
 							<div className={style.leftFooternav}>
 								<h5>Get in Touch</h5>
-								<p>Carl Moore loves to hear from readers. You can reach her book via email. 
-									Feel free to send questions about writing, her works, interviews and other publicity matters.</p>
+								<p>Carl Moore loves to hear from readers. You can reach his book via email. 
+									Feel free to send questions about writing, his works, interviews and other publicity matters.</p>
 							</div>
 
 							<div className={style.socialMediacontainer}>

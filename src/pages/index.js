@@ -12,7 +12,7 @@ const Main = (props) =>{
 		<div className={style.ContentWrapper}>
 			<Header currLocation={props.location}/>
 			<MainBody />
-			<Bottom />
+			{/* <Bottom /> */}
 			<Newsletter />
 			<Footer location={props.location} />
 		</div>

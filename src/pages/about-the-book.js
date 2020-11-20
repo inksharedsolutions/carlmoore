@@ -16,7 +16,7 @@ class aboutTheBook extends React.Component{
 		const slug =(this.props.location.href);
 
 		const disqusConfig = {
-		  shortname: process.env.GATSBY_DISQUS_NAME,
+		  shortname: 'carl-moore',
 		  config: { identifier:  12, slug}
 		}
 
