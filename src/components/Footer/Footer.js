@@ -53,7 +53,7 @@ const Footer =(props) => {
 										icon={faInstagram} />
 								</a>
 								<a 
-									href="https://www.goodreads.com/strattonpress/"
+									href="https://www.goodreads.com/book/show/55161190-god-answered-me-in-tough-times?ac=1&from_search=true&qid=Mz7p2VhC7P&rank=2"
 									target="_blank"
 									rel="noopener noreferrer">
 
