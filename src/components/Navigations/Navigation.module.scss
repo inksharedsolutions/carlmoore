@@ -50,13 +50,13 @@
  	color: #fff !important;
  	background: #ffcb62;
  	border-bottom: 4px solid #fff;
- 	padding: 9px;
+ 	padding: 0px;
 }
 
 .mobileNav{
 	display: none;
 	cursor: pointer;
-	left: -100%;
+	left: 100%;
 	-webkit-transition: all .5s;
     transition: all .5s;
 }

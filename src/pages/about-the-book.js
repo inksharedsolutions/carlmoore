@@ -37,8 +37,8 @@ class aboutTheBook extends React.Component{
 
 									<div className='col l6 m12 s12'>
 										<section className={style.contentBook}>
-										 	<h2 className={style.headingBookIntro}>God</h2>
-										 	<p className={style.subCatsParagph}>answered me in Tough Times</p>
+										 	<h2 className={style.headingBookIntro}>God answered me in Tough Times</h2>
+										 	<p className={style.subCatsParagph}>My First Deaf Missionary Trip to Kenya, Africa In 2006</p>
 											<p>The author used the Holy Bible: Easy-to-Read Version (ERV). Also, this author wanted to show you with eight main points of his story from his personal experiences and/or obstacles. So, this book will tell us that </p>
 											<p>1. according to 1 Peter 5:7 (ERV), God knew about his worries; </p>
 											<p>2. according to Psalm 23:1–6 (ERV), God knew about his troubles; </p>

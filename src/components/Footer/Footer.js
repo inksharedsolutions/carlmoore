@@ -53,7 +53,7 @@ const Footer =(props) => {
 										icon={faInstagram} />
 								</a>
 								<a 
-									href="https://www.goodreads.com/book/show/46272657-choose"
+									href="https://www.goodreads.com/strattonpress/"
 									target="_blank"
 									rel="noopener noreferrer">
 
@@ -67,7 +67,7 @@ const Footer =(props) => {
 						<div className='col l6 m12 s12' id={style.info }>
 							<div className={style.leftFooternav}>
 								<h5>Get in Touch</h5>
-								<p>Carl Moore loves to hear from readers. You can reach his book via email. 
+								<p>Carl Moore loves to hear from readers. You can reach him via email. 
 									Feel free to send questions about writing, his works, interviews and other publicity matters.</p>
 							</div>
 

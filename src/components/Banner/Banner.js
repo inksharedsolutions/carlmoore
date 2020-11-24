@@ -8,7 +8,7 @@ const Banner = (props) =>{
 	let strHeader, subParagraph, strJoin  = '';
 
 	if ( (props.headerText.pathname ===  '/') ){
-		 strHeader = ('1 Peter 5:7 (ERV)');
+		 strHeader = ('1 Peter 5:7');
 		 subParagraph = ('God knew about his worries;');
 	}else{
 		strHeader = (props.headerText.pathname).replace(/[-/]/g," ").trim();
