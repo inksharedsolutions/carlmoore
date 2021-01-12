@@ -64,7 +64,7 @@ const Main = () => {
 										about the author<span className={style.taglineLinear}></span>
 									</p>
 									<h1 className={style.headingFrontline}>
-										Carle<span className={style.spanTagLetters}>Moore</span>
+										Carl<span className={style.spanTagLetters}>Moore</span>
 									</h1>
 
 									<p className={style.subcontent}>
